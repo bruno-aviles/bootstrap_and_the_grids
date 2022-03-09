@@ -62,8 +62,29 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
+       <div class="container minHeight h-100">
+        <h3 class="text-center">COLUMN ORDER MODIFIED </h3>
+
+           <div class="row row-cols-1 row-cols-md-3 gy-1 gx-md-2 h-100">
+               <div class="col col-md-3 order-last order-md-first">
+                   <div class="bg-secondary text-light h-100 text-center">
+                       <h1>COLUMN 1</h1>
+                       <h4>"order-last"<br>"order-md-first"</h4>
+                   </div>
+               </div>
+               <div class="col col-md-6">
+                    <div class="bg-dark text-light h-100 fs-1 text-center">
+                        COLUMN 2
+                        <h3 class="text-light">When screen size is reduced, all columns will stack on top with "COLUMN 1" at the bottom and "COLUMN 3" at the top</h3>
+                    </div>
+                </div>
+                <div class="col col-md-3 order-first order-md-last">
+                    <div class="bg-secondary text-light h-100 fs-1 text-center">
+                        <h1>COLUMN 3</h1>
+                        <h4>"order-first"<br>"order-md-last"</h4>
+                    </div>
+                </div>
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
