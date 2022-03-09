@@ -62,8 +62,29 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
+       <div class="container minHeight h-100">
+           <h3 class="text-center">1 ROW 3 COLUMNS</h3>
+           <div class="row row-cols-1 h-100 gy-2">
+               <div class="col col-md-12">
+                   <div class="bg-secondary text-light h-100">
+                       <h1 class="text-center">COLUMN 1</h1>
+                       <h4 class="text-center">"col-md-12"</h4>
+                       <P class="fs-3 fw-bold text-center text-warning">column-1 takes up the full width forcing column-2 and column-3 to display below column-1<br> Columns will stack if screen size is below breakpoint</P>
+                   </div>
+               </div>
+               <div class="col col-md-6 order-last">
+                   <div class="bg-dark text-light h-100">
+                       <h1 class="text-center">COLUMN 2</h1>
+                       <h4 class="text-center">"col-md-6"<br>"order-last"</h4>
+                   </div>
+               </div>
+               <div class="col col-md-6">
+                   <div class="bg-secondary text-light h-100">
+                       <h1 class="text-center">COLUMN 3</h1>
+                       <h4 class="text-center">"col-md-6"</h4>
+                   </div>
+               </div>
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
