@@ -62,9 +62,37 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
-       </div>
+        <div class="container-fluid minHeight h-100">
+            <h3 class="text-center">1-ROW 4-COLUMNS</h3>
+            <div class="row row-cols-1 h-100 gy-2">
+                <div class="col col-md-12">
+                    <div class="bg-secondary text-light h-100">
+                        <h1 class="text-center">COLUMN 1</h1>
+                        <h4 class="text-center">"col-md-12"</h4>
+                        <P class="fs-3 fw-bold text-center text-warning">"container-fluid" class will take up all the screen width real-estate</P>
+                    </div>
+                </div>
+                <div class="col col-md-4 order-last">
+                    <div class="bg-dark text-light h-100">
+                        <h1 class="text-center">COLUMN 2</h1>
+                        <h4 class="text-center">"col-md-4"<br>"order-last"</h4>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="bg-secondary text-light h-100">
+                        <h1 class="text-center">COLUMN 3</h1>
+                        <h4 class="text-center">"col-md-4"</h4>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="bg-secondary text-light h-100">
+                        <h1 class="text-center">COLUMN 4</h1>
+                        <h4 class="text-center">"col-md-4"</h4>
+                    </div>
+                </div>
+            </div>
+            <P class="fs-4 text-center">**COLUMNS CAN ONLY HAVE A MAX-WIDTH OF 12 MEASURE UNITS</P>
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
