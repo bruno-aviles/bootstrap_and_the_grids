@@ -18,6 +18,10 @@ body>main{
     margin-bottom: 40px;
 }
 
+main>.container-fluid{
+    padding-top: 60px;
+}
+
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;

@@ -62,9 +62,30 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
-       </div>
+        <div class="container-fluid minHeight h-100">
+            <h3 class="text-center">100% Screen Width</h3>
+            <div class="row row-cols-1 h-100 gy-2">
+                <div class="col col-md-12">
+                    <div class="bg-secondary text-light h-100">
+                        <h1 class="text-center">COLUMN 1</h1>
+                        <h4 class="text-center">"col-md-12"</h4>
+                        <P class="fs-3 fw-bold text-center text-warning">"container-fluid" class will take up all the screen width real-estate</P>
+                    </div>
+                </div>
+                <div class="col col-md-6 order-last">
+                    <div class="bg-dark text-light h-100">
+                        <h1 class="text-center">COLUMN 2</h1>
+                        <h4 class="text-center">"col-md-6"<br>"order-last"</h4>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-secondary text-light h-100">
+                        <h1 class="text-center">COLUMN 3</h1>
+                        <h4 class="text-center">"col-md-6"</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
